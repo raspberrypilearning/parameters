@@ -24,7 +24,7 @@ Another part of your code might ask for a players name or generate a player ID. 
 
 **Values** that are passed into a function are called **arguments**. 
 
-In the example code below you can see the `menu` function being defined. You can also see the player's name and ID being passed into the function as arguments. 
+In the example code below you can see the `menu()` function being defined. You can also see the player's name and ID being passed into the function as **arguments**. 
 
 --- code ---
 ---
