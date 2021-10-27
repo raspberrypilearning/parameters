@@ -1,5 +1,3 @@
-## Using parameters in functions
-
 When you **call** or **define** a function you always add curved brackets after its name. Just like this example below:
 
 ```python
