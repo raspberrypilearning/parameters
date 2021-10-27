@@ -1,59 +1,45 @@
-## Introduction
+## Using parameters in functions
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+When you **call** or **define** a function you always add curved brackets after its name. Just like this example below:
 
-### What you will make
+```python
+def menu(): # Defines a function
+  print('Hello')
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
+menu() # Calls a function
+```
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
+Those brackets can be used to **pass** data into a function from another section of your code. This data can then be used by the function to carry out some tasks. 
 
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
+The labels inside the brackets are called **parameters**. A function can have multiple parameters depending on the purpose of the function. 
 
---- collapse ---
+The example function below has **two parameters**, which are `name` and `player_id`. 
+
+```python
+def menu(name, player_id):
+  print(f'Hello {name}, your player ID is {player_id}')
+```
+
+Another part of your code might ask for a players name or generate a player ID. These can then be **passed into** the `menu()` function to be used to display a welcome message. 
+
+Values that are passed into a function in a function call are called **arguments**. 
+
+In the example code below you can see the `menu` function being defined. You can also see the player's name and ID being passed into the function as arguments. 
+
+--- code ---
 ---
-title: What you will need
+language: python
+filename: 
+line_numbers: true
+line_number_start: 
+line_highlights: 
 ---
-### Hardware
+def menu(name, player_id):
+    
+  print(f'Hello {name}, your player ID is {player_id}') # The function uses the values 
 
-+ A computer or tablet capable of running Scratch 3
+name = 'Hayden'
+player_id = 3215
 
-### Software
-
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ Download the project [starter file](http://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
----
-
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
-
---- /collapse ---
-
---- collapse ---
----
-title: Additional information for educators
----
-
-You can download the completed project [here](http://rpf.io/p/en/projectName-get){:target="_blank"}.
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---
+menu(name, player_id) # 'Hayden' and '3215' are passed as arguments into the function
+--- /code ---

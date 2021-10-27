@@ -6,6 +6,4 @@ listed: false
 copyedit: false
 last_tested: "2021-10-27"
 steps:
-  - title: Introduction
-  - title: Step title
-  - title: What next?
+  - title: Using parameters in functions
