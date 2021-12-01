@@ -36,8 +36,8 @@ def menu(name, player_id):
     
   print(f'Hello {name}, your player ID is {player_id}') # The function uses the values 
 
-name = 'Hayden'
-player_id = 3215
+username = 'Hayden'
+id = 3215
 
-menu(name, player_id) # 'Hayden' and '3215' are passed as arguments into the function
+menu(username, id) # 'Hayden' and '3215' are passed as arguments into the function
 --- /code ---
