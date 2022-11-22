@@ -1,4 +1,4 @@
-When you **call** or **define** a function you always add curved brackets after its name. Just like this example below:
+When you **call** or **define** a function, you always add curved brackets after its name. Just like this example below:
 
 ```python
 def menu(): # Defines a function
@@ -18,7 +18,7 @@ def menu(name, player_id):
   print(f'Hello {name}, your player ID is {player_id}')
 ```
 
-Another part of your code might ask for a players name or generate a player ID. These can then be **passed into** the `menu()` function to be used to display a welcome message. 
+Another part of your code might ask for a player's name or generate a player ID. These can then be **passed into** the `menu()` function to be used to display a welcome message. 
 
 **Values** that are passed into a function are called **arguments**. 
 
