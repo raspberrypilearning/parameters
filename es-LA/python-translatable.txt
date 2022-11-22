@@ -1,0 +1,13 @@
+menu
+
+Hello
+
+name
+
+player_id
+
+Hello {name}, your player ID is {player_id}
+
+Hayden
+
+username

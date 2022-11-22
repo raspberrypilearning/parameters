@@ -1,0 +1,7 @@
+Defines a function
+
+Calls a function
+
+The function uses the values
+
+'Hayden' and '3215' are passed as arguments into the function
