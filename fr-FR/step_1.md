@@ -1,4 +1,4 @@
-When you **call** or **define** a function, you always add curved brackets after its name. Just like this example below:
+Lorsque tu **appelles** ou **définis** une fonction, tu ajoutes toujours des parenthèses après son nom. Tout comme dans cet exemple ci-dessous :
 
 ```python
 def menu(): # Defines a function
@@ -7,22 +7,22 @@ def menu(): # Defines a function
 menu() # Calls a function
 ```
 
-Those brackets can be used to **pass** data into a function from another section of your code. This data can then be used by the function to carry out some tasks.
+Ces parenthèses peuvent être utilisées pour **transmettre** des données à une fonction à partir d'une autre section de ton code. Ces données peuvent ensuite être utilisées par la fonction pour réaliser certaines tâches.
 
-The labels inside the brackets are called **parameters**. A function can have multiple parameters depending on the purpose of the function.
+Les libellés entre parenthèses sont appelés **paramètres**. Une fonction peut avoir plusieurs paramètres, selon son objectif.
 
-The example function below has **two parameters**, which are `name` and `player_id`.
+L'exemple de fonction ci-dessous a **deux paramètres**, qui sont `nom` et `id_joueur`.
 
 ```python
 def menu(name, player_id):
   print(f'Hello {name}, your player ID is {player_id}')
 ```
 
-Another part of your code might ask for a player's name or generate a player ID. These can then be **passed into** the `menu()` function to be used to display a welcome message.
+Une autre partie de ton code peut demander le nom d'un joueur ou générer un identifiant de joueur. Ceux-ci peuvent ensuite être **transmis à** la fonction `menu()` pour être utilisés dans un message de bienvenue.
 
-**Values** that are passed into a function are called **arguments**.
+Les **valeurs** qui sont transmises à une fonction sont appelées **arguments**.
 
-In the example code below you can see the `menu()` function being defined. You can also see the player's name and ID being passed into the function as **arguments**.
+Dans l'exemple de code ci-dessous, tu peux voir la fonction `menu()` en cours de définition. Tu peux également voir le nom et l'identifiant du joueur transmis à la fonction sous forme d'**arguments**.
 
 --- code ---
 ---
