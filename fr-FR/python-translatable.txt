@@ -1,13 +1,13 @@
 menu
 
-Hello
+Bonjour
 
-name
+nom
 
-player_id
+id_joueur
 
-Hello {name}, your player ID is {player_id}
+Bonjour {nom}, ton identifiant de joueur est {id_joueur}
 
 Hayden
 
-username
+nom_utilisateur
