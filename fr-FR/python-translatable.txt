@@ -1,0 +1,13 @@
+menu
+
+Bonjour
+
+nom
+
+id_joueur
+
+Bonjour {nom}, ton identifiant de joueur est {id_joueur}
+
+Hayden
+
+nom_utilisateur
