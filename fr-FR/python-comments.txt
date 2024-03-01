@@ -1,7 +1,7 @@
-Defines a function
+Définit une fonction
 
-Calls a function
+Appelle une fonction
 
-The function uses the values
+La fonction utilise les valeurs
 
-'Hayden' and '3215' are passed as arguments into the function
+'Hayden' et '3215' sont transmis comme arguments à la fonction
