@@ -1,0 +1,7 @@
+Definieert een functie
+
+Roept een functie aan
+
+De functie gebruikt de waarden
+
+'Hayden' en '3215' worden als argumenten aan de functie doorgegeven
