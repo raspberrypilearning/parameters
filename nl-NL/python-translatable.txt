@@ -1,15 +1,15 @@
 menu
 
-Hello
+Hallo
 
-name
+naam
 
-player_id
+speler_id
 
-Hello {name}, your player ID is {player_id}
+Hallo {naam}, je speler-ID is {speler_id}
 
 Hayden
 
-username
+gebruikersnaam
 
 id
