@@ -1,0 +1,15 @@
+menu
+
+Hallo
+
+naam
+
+speler_id
+
+Hallo {naam}, je speler-ID is {speler_id}
+
+Hayden
+
+gebruikersnaam
+
+id
