@@ -1,7 +1,7 @@
-Defines a function
+Definieert een functie
 
-Calls a function
+Roept een functie aan
 
-The function uses the values
+De functie gebruikt de waarden
 
-'Hayden' and '3215' are passed as arguments into the function
+'Hayden' en '3215' worden als argumenten aan de functie doorgegeven
