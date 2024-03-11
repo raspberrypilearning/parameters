@@ -1,4 +1,4 @@
-When you **call** or **define** a function, you always add curved brackets after its name. Just like this example below:
+Wanneer je een functie **aanroept** of **definieert**, voeg je altijd ronde haakjes toe achter de naam ervan. Net als dit voorbeeld hieronder:
 
 ```python
 def menu(): # Defines a function
@@ -7,22 +7,22 @@ def menu(): # Defines a function
 menu() # Calls a function
 ```
 
-Those brackets can be used to **pass** data into a function from another section of your code. This data can then be used by the function to carry out some tasks.
+Deze haakjes kunnen worden gebruikt om gegevens **door te geven** aan een functie uit een ander gedeelte van je code. Deze gegevens kunnen vervolgens door de functie worden gebruikt om bepaalde taken uit te voeren.
 
-The labels inside the brackets are called **parameters**. A function can have multiple parameters depending on the purpose of the function.
+De labels tussen de haakjes heten **parameters**. Een functie kan meerdere parameters hebben, afhankelijk van het doel van de functie.
 
-The example function below has **two parameters**, which are `name` and `player_id`.
+De onderstaande voorbeeldfunctie heeft **twee parameters**, namelijk `naam` en `speler_id`.
 
 ```python
 def menu(name, player_id):
   print(f'Hello {name}, your player ID is {player_id}')
 ```
 
-Another part of your code might ask for a player's name or generate a player ID. These can then be **passed into** the `menu()` function to be used to display a welcome message.
+Een ander deel van je code kan om de naam van een speler vragen of een speler-ID genereren. Deze kunnen vervolgens **worden doorgegeven aan** de `menu()` functie om te worden gebruikt om een welkomstbericht weer te geven.
 
-**Values** that are passed into a function are called **arguments**.
+**Waarden** die aan een functie worden doorgegeven, worden **argumenten**genoemd.
 
-In the example code below you can see the `menu()` function being defined. You can also see the player's name and ID being passed into the function as **arguments**.
+In de onderstaande voorbeeldcode zie je dat de functie `menu()` wordt gedefinieerd. Je kunt ook zien dat de naam en het ID van de speler in de functie worden doorgegeven als **argumenten**.
 
 --- code ---
 ---
