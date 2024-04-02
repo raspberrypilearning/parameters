@@ -20,7 +20,7 @@ def menu(naam, speler_id):
 
 Een ander deel van je code kan om de naam van een speler vragen of een speler-ID genereren. Deze kunnen vervolgens **worden doorgegeven aan** de `menu()` functie om te worden gebruikt om een welkomstbericht weer te geven.
 
-**Waarden** die aan een functie worden doorgegeven, worden **argumenten**genoemd.
+**Waarden** die aan een functie worden doorgegeven, worden **argumenten** genoemd.
 
 In de onderstaande voorbeeldcode zie je dat de functie `menu()` wordt gedefinieerd. Je kunt ook zien dat de naam en het ID van de speler in de functie worden doorgegeven als **argumenten**.
 
